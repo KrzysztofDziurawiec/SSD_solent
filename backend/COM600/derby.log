@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue May 02 11:04:38 BST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015b-c89e-6ef7-00000eb3c5a0 
+on database directory C:\Users\gi325\Google Drive\Eclipse - Workspace\COM600\za with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/gi325/Google%20Drive/Eclipse%20-%20Workspace/COM600/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=C:\Users\gi325\Google Drive\Eclipse - Workspace\COM600
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
