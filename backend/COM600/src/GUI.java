@@ -547,14 +547,6 @@ public class GUI extends JFrame implements ActionListener
 	@Override
 	public void actionPerformed(ActionEvent e) 
 	{
-		//3 ostatnie wartosci to cyferki
-		//wszystko inne string
-		//zobacz puste pola w dbtesting
-		//zmien nazwy globalnych i lokalnych bo sa te same
-		//zrob wszystki selecty combo boxow - wyzej jest przyklad
-		//funkja update tak jak insert tylko zmien nazwe tabelki itp itd 
-		//javaDB sql
-		//za 1szym razem zalacz createDB - run -> java app
 		ageCombo = new JComboBox();
 		String queryMember = "INSERT INTO MEMBER (name, address, phone, sex, dob, username, password, membership_type_id, age_group_id, qualification_id) "
 				+ "VALUES('" + nametxt.getText() + "','" 
@@ -572,7 +564,6 @@ public class GUI extends JFrame implements ActionListener
 		if (e.getSource() == addBtn)
 		{
 			
-			System.out.print("heheheheh");
 				query.sendQuery(queryMember);
 			
 		}
